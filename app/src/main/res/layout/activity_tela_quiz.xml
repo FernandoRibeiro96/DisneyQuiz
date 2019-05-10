@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fundopergunta"
+    tools:context=".TelaQuizActivity">
+
+    <TextView
+        android:id="@+id/perguntaId"
+        android:layout_width="344dp"
+        android:layout_height="146dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="TextView"
+        android:textColor="@color/colorAccent"
+        android:textSize="24sp" />
+
+    <RadioGroup
+        android:id="@+id/rbrespostaId"
+        android:layout_width="344dp"
+        android:layout_height="225dp"
+        android:layout_below="@+id/perguntaId"
+        android:layout_alignStart="@+id/perguntaId"
+        android:layout_alignLeft="@+id/perguntaId"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="6dp">
+
+        <RadioButton
+            android:id="@+id/rbResposta1Id"
+            android:layout_width="344dp"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:background="@drawable/altera"
+            android:paddingLeft="50dp"
+            android:textColor="@color/colorAccent"
+            android:textSize="14sp" />
+
+        <RadioButton
+            android:id="@+id/rbResposta2Id"
+            android:layout_width="344dp"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:background="@drawable/alterb"
+            android:textColor="@color/colorAccent"
+            android:textSize="14sp" />
+
+        <RadioButton
+            android:id="@+id/rbResposta3Id"
+            android:layout_width="344dp"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:background="@drawable/alterc"
+            android:paddingLeft="58dp"
+            android:textColor="@color/colorAccent"
+            android:textSize="14sp" />
+    </RadioGroup>
+
+    <ImageView
+        android:id="@+id/btnResponderId"
+        android:layout_width="278dp"
+        android:layout_height="145dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="38dp"
+        app:srcCompat="@drawable/responder" />
+
+</RelativeLayout>

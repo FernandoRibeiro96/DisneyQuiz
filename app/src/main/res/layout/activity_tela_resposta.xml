@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rgg5tg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fundopergunta"
+    tools:context=".TelaRespostaActivity">
+
+    <TextView
+        android:id="@+id/textoAcERId"
+        android:layout_width="221dp"
+        android:layout_height="88dp"
+        android:layout_alignEnd="@+id/imgResposta"
+        android:layout_alignRight="@+id/imgResposta"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="295dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginRight="36dp"
+        android:gravity="center"
+        android:textColor="@color/colorAccent"
+        android:textSize="25sp" />
+
+    <ImageView
+        android:id="@+id/imgResposta"
+        android:layout_width="283dp"
+        android:layout_height="267dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="53dp"
+        android:layout_marginLeft="53dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="48dp"
+        android:layout_marginRight="48dp"
+        android:foregroundGravity="center"
+        app:srcCompat="@drawable/erro" />
+
+    <ImageView
+        android:id="@+id/btnJogarNovamente"
+        android:layout_width="234dp"
+        android:layout_height="106dp"
+        android:layout_below="@+id/textoAcERId"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="119dp"
+        android:layout_marginTop="-1dp"
+        app:srcCompat="@drawable/jogard" />
+
+    <ImageView
+        android:id="@+id/sairId"
+        android:layout_width="208dp"
+        android:layout_height="75dp"
+        android:layout_below="@+id/btnJogarNovamente"
+        android:layout_alignEnd="@+id/btnJogarNovamente"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="13dp"
+        app:srcCompat="@drawable/sairum" />
+
+</RelativeLayout>
